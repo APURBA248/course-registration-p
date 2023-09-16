@@ -1,0 +1,31 @@
+.card{
+    width: 312px;
+    height: 402px;
+    border-radius: 12px;
+    background: #FFF;
+}
+.photo{
+    padding: 16px;
+}
+.title,p{
+    color: black;
+    text-align: start;
+    padding-left: 16px;
+    margin-top: 0px;
+}
+.info{   
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-btn{
+    background:#2F80ED;
+}
+.home-container{
+    display: flex;
+}
+.card-container{
+    width:1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
